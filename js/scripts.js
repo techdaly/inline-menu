@@ -77,25 +77,25 @@ $(".ordinary-left").click(function(){
 
 // ORDINARY COLOR /////////////////////////////////////////////////
 var ordColors = ["ermine", "vair", "red", "blue", "white", "yellow", "black", "green", "purple", "mulberry", "ash", "brown", "sky", "amaranth"];
-var currentColor = 0;
-var colorLoop = function(currentColor) {
-  return ordColors[Math.abs(currentColor % ordColors.length)];
+var currentOrdColor = 0;
+var colorOrdLoop = function(currentOrdColor) {
+  return ordColors[Math.abs(currentOrdColor % ordColors.length)];
 }
 
-$(".ordinary").addClass(ordColors[0]);
+$(".ordinary").addClass(ordColors[currentOrdColor]);
 
 $(".ordcolor-right").click(function(){
-  $(".ordinary").removeClass(colorLoop(currentColor));
-  currentColor++;
-  $(".ordinary").addClass(colorLoop(currentColor));
+  $(".ordinary").removeClass(colorOrdLoop(currentOrdColor));
+  currentOrdColor++;
+  $(".ordinary").addClass(colorOrdLoop(currentOrdColor));
 })
 
 $(".ordcolor-left").click(function(){
-  if(currentColor === 0) {
-    currentColor = colors.length;
+  if(currentOrdColor === 0) {
+    currentOrdColor = colors.length;
   }
 
-  $(".ordinary").removeClass(colorLoop(currentColor));
-  currentColor--;
-  $(".ordinary").addClass(colorLoop(currentColor));
+  $(".ordinary").removeClass(colorOrdLoop(currentOrdColor));
+  currentOrdColor--;
+  $(".ordinary").addClass(colorOrdLoop(currentOrdColor));
 })
