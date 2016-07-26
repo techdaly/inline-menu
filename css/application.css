@@ -1,28 +1,11 @@
-.shape {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  margin-left: 0px;
-  margin-top: 0px; }
-
-.lozenge {
-  background-image: url("../img/lozenge.png"); }
-
-.cartouche {
-  background-image: url("../img/cartouche.png"); }
-
-.heater {
-  background-image: url("../img/heater.png"); }
-
-.iberian {
-  background-image: url("../img/iberian.png"); }
-
-.swiss {
-  background-image: url("../img/swiss.png"); }
-
 body, html {
   margin: 0px;
   padding: 0px; }
+
+.container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between; }
 
 * {
   font-family: 'Mirza', cursive; }
@@ -30,19 +13,22 @@ body, html {
 .label {
   font-size: 48px; }
 
-.container {
-  display: flex;
-  padding: 50px;
-  justify-content: space-between; }
+.button:hover {
+  cursor: pointer;
+  opacity: .6; }
 
 .menu-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 40%; }
-  .menu-list .button:hover {
-    cursor: pointer;
-    opacity: .6; }
+
+.field-menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
 
 .shield {
   width: 40%; }
@@ -98,5 +84,27 @@ body, html {
 .vair {
   background-image: url("../img/vair.png");
   background-repeat: repeat; }
+
+.shape {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px; }
+
+.lozenge {
+  background-image: url("../img/lozenge.png"); }
+
+.cartouche {
+  background-image: url("../img/cartouche.png"); }
+
+.heater {
+  background-image: url("../img/heater.png"); }
+
+.iberian {
+  background-image: url("../img/iberian.png"); }
+
+.swiss {
+  background-image: url("../img/swiss.png"); }
 
 /*# sourceMappingURL=application.css.map */

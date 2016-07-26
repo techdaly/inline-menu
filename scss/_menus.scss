@@ -1,0 +1,23 @@
+////////////////////////////////////////////////////
+// MENUS                                          //
+////////////////////////////////////////////////////
+
+.button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.field-menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

@@ -8,17 +8,17 @@ var colorLoop = function(currentColor) {
 
 $(".color").addClass(colors[0]);
 
-$(".button-right").click(function(){
+$(".field-right").click(function(){
   $(".color").removeClass(colorLoop(currentColor));
   currentColor++;
   $(".color").addClass(colorLoop(currentColor));
 })
 
-$(".button-left").click(function(){
+$(".field-left").click(function(){
   if(currentColor === 0) {
     currentColor = colors.length;
   }
-  
+
   $(".color").removeClass(colorLoop(currentColor));
   currentColor--;
   $(".color").addClass(colorLoop(currentColor));

@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////
+// COLOR                                          //
+////////////////////////////////////////////////////
+
+
+.color {
+  width: 398px;
+  height: 398px;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+  z-index: -1;
+}
+
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.mulberry {
+  background-color: #cc0099;
+}
+
+.ash {
+  background-color: #737373;
+}
+
+.brown {
+  background-color: #663300;
+}
+
+.sky {
+  background-color: #66ccff;
+}
+
+.amaranth {
+  background-color: #ff0066;
+}
+
+.ermine {
+  background-image: url('../img/ermine.png');
+  background-repeat: repeat;
+}
+
+.vair {
+  background-image: url('../img/vair.png');
+  background-repeat: repeat;
+}

@@ -1,0 +1,14 @@
+////////////////////////////////////////////////////
+// BASE                                           //
+////////////////////////////////////////////////////
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
