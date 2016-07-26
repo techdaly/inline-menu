@@ -1,5 +1,5 @@
 // FIELD COLOR /////////////////////////////////////////////////
-var colors = ["red", "blue", "white", "yellow", "black", "green", "purple", "mulberry", "ash", "brown", "sky", "amaranth", "ermine", "vair"];
+var colors = ["red", "blue", "yellow", "black", "green", "purple", "mulberry", "brown", "ash", "white", "sky", "amaranth", "ermine", "vair"];
 var currentColor = 0;
 var colorLoop = function(currentColor) {
   return colors[Math.abs(currentColor % colors.length)];
