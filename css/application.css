@@ -1,0 +1,72 @@
+body, html {
+  margin: 0px;
+  padding: 0px; }
+
+.menu {
+  display: flex;
+  justify-content: space-around; }
+  .menu .button-left {
+    border-top: 50px solid transparent;
+    border-right: 50px solid black;
+    border-bottom: 50px solid transparent; }
+  .menu .button-left:hover {
+    cursor: pointer;
+    opacity: .6; }
+  .menu .button-right {
+    border-top: 50px solid transparent;
+    border-left: 50px solid black;
+    border-bottom: 50px solid transparent; }
+  .menu .button-right:hover {
+    cursor: pointer;
+    opacity: .6; }
+
+.color {
+  width: 150px;
+  height: 150px; }
+
+.red {
+  background-color: red; }
+
+.blue {
+  background-color: blue; }
+
+.white {
+  background-color: white;
+  border: 1px solid black; }
+
+.yellow {
+  background-color: yellow; }
+
+.black {
+  background-color: black; }
+
+.green {
+  background-color: green; }
+
+.purple {
+  background-color: purple; }
+
+.mulberry {
+  background-color: #cc0099; }
+
+.ash {
+  background-color: #737373; }
+
+.brown {
+  background-color: #663300; }
+
+.sky {
+  background-color: #66ccff; }
+
+.amaranth {
+  background-color: #ff0066; }
+
+.ermine {
+  background-image: url("../img/ermine.png");
+  background-repeat: repeat; }
+
+.vair {
+  background-image: url("../img/vair.png");
+  background-repeat: repeat; }
+
+/*# sourceMappingURL=application.css.map */
