@@ -48,3 +48,29 @@ $(".shape-left").click(function(){
   currentShape--;
   $(".shape").addClass(shapeLoop(currentShape));
 })
+
+// ORDINARY SHAPE ////////////////////////////////////////////////
+
+var ordinaries = ["none", "fess", "pale"];
+var currentOrd = 0;
+var ordLoop = function(currentOrd) {
+  return ordinaries[Math.abs(currentOrd % ordinaries.length)];
+}
+
+$(".ordinary").addClass(ordinaries[0]);
+
+$(".ordinary-right").click(function(){
+  $(".ordinary").removeClass(ordLoop(currentOrd));
+  currentOrd++;
+  $(".ordinary").addClass(ordLoop(currentOrd));
+})
+
+$(".ordinary-left").click(function(){
+  if(currentOrd === 0) {
+    currentOrd = ordinaries.length;
+  }
+
+  $(".ordinary").removeClass(ordLoop(currentOrd));
+  currentOrd--;
+  $(".ordinary").addClass(ordLoop(currentOrd));
+})

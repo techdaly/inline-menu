@@ -24,14 +24,7 @@ body, html {
   align-items: center;
   width: 40%; }
 
-.shape-menu {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; }
-
-.field-menu {
+.menu {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -47,7 +40,7 @@ body, html {
   position: absolute;
   margin-left: 1px;
   margin-top: 1px;
-  z-index: -1; }
+  z-index: -2; }
 
 .red {
   background-color: red; }
@@ -56,7 +49,7 @@ body, html {
   background-color: blue; }
 
 .white {
-  background-color: white; }
+  background-color: #d6d6d6; }
 
 .yellow {
   background-color: yellow; }
@@ -114,5 +107,21 @@ body, html {
 
 .swiss {
   background-image: url("../img/swiss.png"); }
+
+.fess {
+  width: 398px;
+  height: 50px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 1px;
+  z-index: -1; }
+
+.pale {
+  height: 398px;
+  width: 50px;
+  position: absolute;
+  margin-left: 175px;
+  margin-top: 1px;
+  z-index: -1; }
 
 /*# sourceMappingURL=application.css.map */
