@@ -5,12 +5,12 @@ var colorLoop = function(currentColor) {
   return colors[Math.abs(currentColor % colors.length)];
 }
 
-$(".color").addClass(colors[0]);
+$(".field").addClass(colors[0]);
 
 $(".field-right").click(function(){
-  $(".color").removeClass(colorLoop(currentColor));
+  $(".field").removeClass(colorLoop(currentColor));
   currentColor++;
-  $(".color").addClass(colorLoop(currentColor));
+  $(".field").addClass(colorLoop(currentColor));
 })
 
 $(".field-left").click(function(){
@@ -18,9 +18,9 @@ $(".field-left").click(function(){
     currentColor = colors.length;
   }
 
-  $(".color").removeClass(colorLoop(currentColor));
+  $(".field").removeClass(colorLoop(currentColor));
   currentColor--;
-  $(".color").addClass(colorLoop(currentColor));
+  $(".field").addClass(colorLoop(currentColor));
 })
 
 // SHIELD SHAPE ////////////////////////////////////////////////
@@ -76,13 +76,13 @@ $(".ordinary-left").click(function(){
 })
 
 // ORDINARY COLOR /////////////////////////////////////////////////
-var colors = ["red", "blue", "white", "yellow", "black", "green", "purple", "mulberry", "ash", "brown", "sky", "amaranth", "ermine", "vair"];
+var ordColors = ["ermine", "vair", "red", "blue", "white", "yellow", "black", "green", "purple", "mulberry", "ash", "brown", "sky", "amaranth"];
 var currentColor = 0;
 var colorLoop = function(currentColor) {
-  return colors[Math.abs(currentColor % colors.length)];
+  return ordColors[Math.abs(currentColor % ordColors.length)];
 }
 
-$(".ordinary").addClass(colors[12]);
+$(".ordinary").addClass(ordColors[0]);
 
 $(".ordcolor-right").click(function(){
   $(".ordinary").removeClass(colorLoop(currentColor));
