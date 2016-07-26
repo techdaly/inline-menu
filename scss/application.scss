@@ -1,38 +1,51 @@
+////////////////////////////////////////////////////
+// IMPORTS                                        //
+////////////////////////////////////////////////////
+@import 'shapes';
+
 body, html{
   margin: 0px;
   padding: 0px;
 }
 
-.menu {
+* {
+  font-family: 'Mirza', cursive;
+}
+
+.label {
+  font-size: 48px;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+.menu-list {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  width: 40%;
 
-  .button-left{
-   border-top: 50px solid transparent;
-   border-right: 50px solid black;
-   border-bottom: 50px solid transparent;
- }
-
- .button-left:hover {
-   cursor: pointer;
-   opacity: .6;
- }
- .button-right{
-   border-top: 50px solid transparent;
-   border-left: 50px solid black;
-   border-bottom: 50px solid transparent;
- }
- .button-right:hover {
+ .button:hover {
    cursor: pointer;
    opacity: .6;
  }
 }
 
+.shield {
+  width: 40%;
+}
 
 .color {
-  width: 150px;
-  height: 150px;
+  width: 398px;
+  height: 398px;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+  z-index: -1;
 }
+
 
 .red {
   background-color: red;
@@ -44,7 +57,6 @@ body, html{
 
 .white {
   background-color: white;
-  border: 1px solid black;
 }
 
 .yellow {

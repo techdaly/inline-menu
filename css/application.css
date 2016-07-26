@@ -1,28 +1,59 @@
+.shape {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px; }
+
+.lozenge {
+  background-image: url("../img/lozenge.png"); }
+
+.cartouche {
+  background-image: url("../img/cartouche.png"); }
+
+.heater {
+  background-image: url("../img/heater.png"); }
+
+.iberian {
+  background-image: url("../img/iberian.png"); }
+
+.swiss {
+  background-image: url("../img/swiss.png"); }
+
 body, html {
   margin: 0px;
   padding: 0px; }
 
-.menu {
+* {
+  font-family: 'Mirza', cursive; }
+
+.label {
+  font-size: 48px; }
+
+.container {
   display: flex;
-  justify-content: space-around; }
-  .menu .button-left {
-    border-top: 50px solid transparent;
-    border-right: 50px solid black;
-    border-bottom: 50px solid transparent; }
-  .menu .button-left:hover {
-    cursor: pointer;
-    opacity: .6; }
-  .menu .button-right {
-    border-top: 50px solid transparent;
-    border-left: 50px solid black;
-    border-bottom: 50px solid transparent; }
-  .menu .button-right:hover {
+  padding: 50px;
+  justify-content: space-between; }
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%; }
+  .menu-list .button:hover {
     cursor: pointer;
     opacity: .6; }
 
+.shield {
+  width: 40%; }
+
 .color {
-  width: 150px;
-  height: 150px; }
+  width: 398px;
+  height: 398px;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+  z-index: -1; }
 
 .red {
   background-color: red; }
@@ -31,8 +62,7 @@ body, html {
   background-color: blue; }
 
 .white {
-  background-color: white;
-  border: 1px solid black; }
+  background-color: white; }
 
 .yellow {
   background-color: yellow; }
