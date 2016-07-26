@@ -1,5 +1,5 @@
 .none {
-  
+
 }
 
 .fess {
@@ -21,29 +21,78 @@
 }
 
 .bend {
-
+  height: 398px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(0 0, 16% 0, 100% 100%, 84% 100%);
+  clip-path: polygon(0 0, 16% 0, 100% 100%, 84% 100%);
 }
 
 .bend-sin {
-
+  height: 398px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(84% 0, 100% 0%, 16% 100%, 0% 100%);
+  clip-path: polygon(84% 0, 100% 0%, 16% 100%, 0% 100%);
 }
 
 .chevron {
-
+  height: 300px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 150px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(50% 0%, 100% 45%, 100% 65%, 50% 20%, 0 65%, 0 45%);
+  clip-path: polygon(50% 0%, 100% 45%, 100% 65%, 50% 20%, 0 65%, 0 45%);
 }
 
 .cross {
-
+  height: 398px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
+  clip-path: polygon(0 45%, 45% 45%, 45% 0, 55% 0, 55% 45%, 100% 45%, 100% 55%, 55% 55%, 55% 100%, 45% 100%, 45% 55%, 0 55%);
 }
 
 .saltire {
-
+  height: 398px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(7% 0, 0 7%, 43% 50%, 0 93%, 7% 100%, 50% 57%, 93% 100%, 100% 93%, 57% 50%, 100% 7%, 93% 0, 50% 43%);
+  clip-path: polygon(7% 0, 0 7%, 43% 50%, 0 93%, 7% 100%, 50% 57%, 93% 100%, 100% 93%, 57% 50%, 100% 7%, 93% 0, 50% 43%);
 }
 
 .pall {
-
+  height: 398px;
+  width: 358px;
+  margin-left: 21px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(50% 40%, 92% 0, 100% 8%, 57% 50%, 57% 100%, 43% 100%, 43% 50%, 0 8%, 8% 0);
+  clip-path: polygon(50% 40%, 92% 0, 100% 8%, 57% 50%, 57% 100%, 43% 100%, 43% 50%, 0 8%, 8% 0);
 }
 
 .pall-rev {
-
+  height: 398px;
+  width: 398px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: absolute;
+  z-index: -1;
+  -webkit-clip-path: polygon(43% 0, 57% 0, 57% 46%, 100% 90%, 92% 100%, 50% 58%, 8% 100%, 0 90%, 43% 46%);
+  clip-path: polygon(43% 0, 57% 0, 57% 46%, 100% 90%, 92% 100%, 50% 58%, 8% 100%, 0 90%, 43% 46%);
 }

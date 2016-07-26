@@ -51,7 +51,7 @@ $(".shape-left").click(function(){
 
 // ORDINARY SHAPE ////////////////////////////////////////////////
 
-var ordinaries = ["none", "fess", "pale"];
+var ordinaries = ["fess", "pale", "bend", "bend-sin", "cross", "saltire", "chevron", "pall-rev", "pall", "none"];
 var currentOrd = 0;
 var ordLoop = function(currentOrd) {
   return ordinaries[Math.abs(currentOrd % ordinaries.length)];
@@ -73,4 +73,29 @@ $(".ordinary-left").click(function(){
   $(".ordinary").removeClass(ordLoop(currentOrd));
   currentOrd--;
   $(".ordinary").addClass(ordLoop(currentOrd));
+})
+
+// ORDINARY COLOR /////////////////////////////////////////////////
+var colors = ["red", "blue", "white", "yellow", "black", "green", "purple", "mulberry", "ash", "brown", "sky", "amaranth", "ermine", "vair"];
+var currentColor = 0;
+var colorLoop = function(currentColor) {
+  return colors[Math.abs(currentColor % colors.length)];
+}
+
+$(".ordinary").addClass(colors[12]);
+
+$(".ordcolor-right").click(function(){
+  $(".ordinary").removeClass(colorLoop(currentColor));
+  currentColor++;
+  $(".ordinary").addClass(colorLoop(currentColor));
+})
+
+$(".ordcolor-left").click(function(){
+  if(currentColor === 0) {
+    currentColor = colors.length;
+  }
+
+  $(".ordinary").removeClass(colorLoop(currentColor));
+  currentColor--;
+  $(".ordinary").addClass(colorLoop(currentColor));
 })
