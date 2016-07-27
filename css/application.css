@@ -46,40 +46,40 @@ body, html {
   z-index: -2; }
 
 .red {
-  background-color: red; }
+  background-color: #cf1717; }
 
 .blue {
-  background-color: blue; }
+  background-color: #00549A; }
 
 .white {
-  background-color: #d6d6d6; }
+  background-color: white; }
 
 .yellow {
-  background-color: yellow; }
+  background-color: #FFC212; }
 
 .black {
   background-color: black; }
 
 .green {
-  background-color: green; }
+  background-color: #00884A; }
 
 .purple {
-  background-color: purple; }
+  background-color: #642667; }
 
 .mulberry {
-  background-color: #cc0099; }
+  background-color: #991B41; }
 
 .ash {
-  background-color: #737373; }
+  background-color: #b6ada5; }
 
 .brown {
-  background-color: #663300; }
+  background-color: #AA8155; }
 
 .sky {
-  background-color: #66ccff; }
+  background-color: #0193DD; }
 
 .amaranth {
-  background-color: #ff0066; }
+  background-color: #bb16a3; }
 
 .ermine {
   background-image: url("../img/ermine.png");
@@ -97,19 +97,19 @@ body, html {
   margin-top: 0px; }
 
 .lozenge {
-  background-image: url("../img/lozenge.png"); }
+  background-image: url("../img/lozengeborder.png"); }
 
 .cartouche {
-  background-image: url("../img/cartouche.png"); }
+  background-image: url("../img/cartoucheborder.png"); }
 
 .heater {
-  background-image: url("../img/heater.png"); }
+  background-image: url("../img/heaterborder.png"); }
 
 .iberian {
-  background-image: url("../img/iberian.png"); }
+  background-image: url("../img/iberianborder.png"); }
 
 .swiss {
-  background-image: url("../img/swiss.png"); }
+  background-image: url("../img/swissborder.png"); }
 
 .fess {
   width: 398px;
